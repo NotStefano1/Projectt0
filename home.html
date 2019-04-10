@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Home</title>
     <h1>Storia e avventure di Drago<h1>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="home.css" >
   </head>
   <body>
+<div class="container">
+  <div class="text-center">
 <h2> Tabella dei paragrafi della storia1</h2>
-<ul>
-  <li><a href="#section1"> Paragrafo 1</a></li>
-  <li><a href="#section2"> Paragrafo 2</a></li>
-  <li><a href="#section3"> Paragrafo 3</a></li>
-  <li><a href="#section4"> Paragrafo 4</a></li>
+<ul class="list-group list-group-flush">
+  <li class="list-group-item"><a href="#section1"> Paragrafo 1</a></li>
+  <li class="list-group-item"><a href="#section2"> Paragrafo 2</a></li>
+  <li class="list-group-item"><a href="#section3"> Paragrafo 3</a></li>
+  <li class="list-group-item"><a href="#section4"> Paragrafo 4</a></li>
 </ul>
+
 <h2 id="section1"> Paragrafo 1</h2>
 <p> Qui inizia la nostra storia, la storia di un drago che voleva cambiare la
   sua purtroppo triste vita. Un drago giovane e ingenuo ma con delle speranze
@@ -30,6 +34,7 @@ veramente qualcuno di importante se una volta arrivato all'età adulta non sapev
 draghi come lui erano sempre relegati ai compiti più difficili. Per la prima volta però, in millenni di immutata civiltà dei draghi
 lui sapeva di possedere un talento nuovo e innovativo, che se mai si era manifestato in passato, nessuno aveva saputo sfruttare. Il suo talento era... </p>
 <h2 id="section4"> Paragrafo 4</h2>
+<p>
 ...saper leggere. Il contatto con il mondo degli umani non era particolarmente costante e genuino ma una sorta di scambio commerciale
 con il loro mondo esisteva. Spesso alcuni prodotti tipici umani finivano nelle città dei draghi. Fra questi c'erano i libri.
 Fra quelli che il Drago aveva già letto c'erano per esempio tre grandi manuali:
@@ -44,49 +49,70 @@ Fra quelli che il Drago aveva già letto c'erano per esempio tre grandi manuali:
     <li>Volume per la ritrasformazione</li>
   </ul>
 </ol>
+</p>
+
+<img src="Drago.png" class="img-fluid" alt="Responsive image">
 
 <h2 id="section5"> Paragrafo 5</h2>
+<p>
 Non solo manuali, Drago era riuscito a recuperare anche alcuni romanzi. Fra questi, o per meglio dire, questi e basta erano:
+</p>
 <ol>
   <li id="libro1"> Andai via, ma poi tornai. La mia storia, fino ad un po' prima della mia morte. </li>
   <li id="libro2"> Un amore incondizionato per le locomotive a vapore. Qualsiasi cosa esse siano.</li>
   <li id="libro3"> Baccareccio il tiramisù. </li>
   <li id="libro4"> Un'astronave di legno in un mondo di marmellata. </li>
 </ol>
-
+</div>
+<p>
 Dato che per Drago erano questi ultimi i suoi libri preferiti, li ha conservati ancora ed è quindi possibile per noi leggerne un estratto.
 Quale si vuole leggere:
+</p>
 
-
-  <ul>
-    <li><a href="firstpage.html"> Libro 1</a></li>
-    <li><a href="secondpage.html"> Libro 2</a></li>
-    <li><a href="thirdpage.html"> Libro 3</a></li>
-    <li><a href="fourpage.html"> Libro 4</a></li>
+  <ul class="list-group">
+    <li class="list-group-item active"><a> Libri</a></li>
+    <li class="list-group-item d-flex justify-content-between align-items-cente"><a href="firstpage.html"> Libro
+      <span class="badge badge-primary badge-pill">1</span></a></li>
+    <li class="list-group-item d-flex justify-content-between align-items-cente"><a href="secondpage.html"> Libro
+    <span class="badge badge-primary badge-pill">2</span></a></li>
+    <li class="list-group-item d-flex justify-content-between align-items-cente"><a href="thirdpage.html"> Libro
+    <span class="badge badge-primary badge-pill">3</span></a></li>
+    <li class="list-group-item d-flex justify-content-between align-items-cente"><a href="fourpage.html"> Libro
+    <span class="badge badge-primary badge-pill">4</span></a></li>
   </ul>
-
+<p>
 La cosa che Drago imparò più in fretta dalle sue letture furono il rapporto che gli umani riuscivano ad avere fra di loro. Un rapporto estremamente
 banale per l'alta concezione sociale dei draghi ma Drago ne era lo stesso molto affascinato. Dopo tutte queste letture si sentiva allora abbastanza
 pratico da poterne affrontare faccia a "faccia" uno vero (di umano intendo.).
 Il suo piano era semplice, aveva capito che esistevano altri tipi di umani otre a quelli che vedeva al mercato comune, e ognuno di questi aveva delle
 caratteristiche peculiari:
-<table>
+</p>
+<table class="table table-dark">
+  <thead>
   <tr>
-    <th>Tipo di umano</th>
-    <th>Potere dell'umano</th>
-    <th>caratteristica dell'umano</th>
+    <th scope="col">#</th>
+    <th scope="col">Tipo di umano</th>
+    <th scope="col">Potere dell'umano</th>
+    <th scope="col">caratteristica dell'umano</th>
   </tr>
+    </thead>
+    <tbody>
   <tr>
+    <th scope="row">1</th>
     <td>Femmina</td>
     <td>Superintelligenza (per gli standard umani)</td>
     <td>Comando</td>
   </tr>
   <tr>
+    <th scope="row">2</th>
     <td>Maschio</td>
     <td>super "dato mancante"</td>
     <td>Perseveranza alla codardia</td>
   </tr>
+    </tbody>
 </table>
-
+</p>
+</div>
+</div>
 </body>
 </html>
