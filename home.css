@@ -4,5 +4,52 @@ body {
 
 p,ul,table,ol  {
   font-size: 20px;
+  text-align: center;
 }
 /*# sourceMappingURL=home.css.map */
+
+@media (min-width:800px) {
+  #section1 {background-color: lightseagreen;}
+}
+@media (max-width:799px) {
+  #section1 {background-color: aquamarine;}
+}
+
+@media (min-width:800px) {
+  #section2 {background-color: lightseagreen;}
+}
+@media (max-width:799px) {
+  #section2 {background-color: aquamarine;}
+}
+
+@media (min-width:800px) {
+  #section3 {background-color: lightseagreen;}
+}
+@media (max-width:799px) {
+  #section3 {background-color: aquamarine;}
+}
+
+@media (min-width:800px) {
+  #section4 {background-color: lightseagreen;}
+}
+@media (max-width:799px) {
+  #section4 {background-color: aquamarine;}
+}
+
+@media (min-width:800px) {
+  #section5 {background-color: lightseagreen;}
+}
+@media (max-width:799px) {
+  #section5 {background-color: aquamarine;}
+}
+
+@media (min-width:800px) {
+  #section6 {background-color: lightseagreen;}
+}
+@media (max-width:799px) {
+  #section6 {background-color: aquamarine;}
+}
+
+#section6 {
+  text-align: center;
+}

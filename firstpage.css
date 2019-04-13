@@ -1,0 +1,23 @@
+body {
+  cursor: nw-resize;
+}
+
+ul li {font-size: x-large;}
+
+h1,ul,div,p {
+  font-style: italic;
+  text-align: center;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+q {font-style: italic;
+  quotes: string string;
+text-align: center;}
+
+a::before {content: "Prossimo libro: ";
+font-weight: bold;}
+
+a:hover { cursor: alias;}
